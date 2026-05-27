@@ -7,13 +7,13 @@
     
     <!-- Package Metadata -->
     <PackageId>Inertia.React</PackageId>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Authors>Inertia.NET Contributors</Authors>
     <Description>React adapter for Inertia.js on ASP.NET Core</Description>
     <PackageTags>inertia;react;spa;aspnetcore;ssr</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/yourusername/inertia-dotnet</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/yourusername/inertia-dotnet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ps-carvalho/Inertia.React</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/ps-carvalho/Inertia.React</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
@@ -29,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Inertia.Core\Inertia.Core.csproj" />
+    <PackageReference Include="Inertia.Core" Version="0.1.1" />
   </ItemGroup>
 
   <ItemGroup>
